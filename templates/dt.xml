@@ -1,0 +1,9 @@
+<templateSet group="dt">
+  <template name="auto" value="@Autowired private $Type$  $Name$;" description="autowired field" toReformat="false" toShortenFQNames="true">
+    <variable name="Type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Name" expression="lowercaseAndDash(String)" defaultValue="$Type$" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
