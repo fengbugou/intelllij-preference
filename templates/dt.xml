@@ -1,0 +1,15 @@
+<templateSet group="dt">
+  <template name="auto" value="@Autowired private $cls$ $var$;" description="autowired field" toReformat="false" toShortenFQNames="true">
+    <variable name="cls" expression="typeOfVariable(VAR)" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="thr" value="throw RtnError.gen($error$.INSTANCE);" toReformat="false" toShortenFQNames="true">
+    <variable name="error" expression="subtypes(RtnError)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
