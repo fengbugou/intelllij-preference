@@ -10,6 +10,7 @@
     <mouse-shortcut keystroke="button2" />
   </action>
   <action id="DumpLookupElementWeights" />
+  <action id="EditorDelete" />
   <action id="EditorKillToWordStart">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
