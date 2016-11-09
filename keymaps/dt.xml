@@ -52,6 +52,10 @@
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="ctrl meta alt r" />
   </action>
+  <action id="NewElementInMenuGroup">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="NewScratchFile" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
   <action id="ShowBookmarks" />
