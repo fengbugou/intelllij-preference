@@ -4,11 +4,61 @@
     <variable name="var" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="KOTLIN" value="true" />
     </context>
   </template>
   <template name="thr" value="throw RtnError.gen($error$.INSTANCE);" toReformat="false" toShortenFQNames="true">
     <variable name="error" expression="subtypes(RtnError)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="xlapi" value="    @Cmd(&quot;$api_desc$&quot;)&#10;    @CmdAuthor(&quot;&quot;)&#10;    @CmdSession(type = CmdSessionType.$require_session$)&#10;    @CmdParams({&#10;        &#10;    })&#10;    @CmdReturn&#10;    public Object $api_name$(XLHttpRequest request, XLHttpResponse response) {&#10;        return JsonObjectUtils.getRtnAndDataJsonObject(Rtn.OK);&#10;    }" description="add a xunlei style api" toReformat="false" toShortenFQNames="true">
+    <variable name="api_desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="require_session" expression="" defaultValue="COMPELLED" alwaysStopAt="true" />
+    <variable name="api_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="xlparam" value="@CmdParam(name = $field_define_class$.$param_field$, type = $param_type$.class, desc = &quot;$param_desc$&quot;)," description="add xl param" toReformat="false" toShortenFQNames="true">
+    <variable name="field_define_class" expression="" defaultValue="&quot;SilvanParam&quot;" alwaysStopAt="true" />
+    <variable name="param_field" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param_type" expression="" defaultValue="&quot;Integer&quot;" alwaysStopAt="true" />
+    <variable name="param_desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getint" value="int $field_name$ = request.getParameterInteger($field_class$.$key$, $defaultValue$)" description="get int from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field_class" expression="" defaultValue="&quot;SilvanParam&quot;" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getstr" value="String $field_name$ = request.getParameter($field_class$.$key$, $defaultValue$)" description="get string from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field_class" expression="" defaultValue="&quot;SilvanParam&quot;" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getbool" value="boolean $field_name$ = request.getParameterBoolean($field_class$.$key$, $defaultValue$)" description="get boolean from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field_class" expression="" defaultValue="&quot;SilvanParam&quot;" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="getlong" value="long $field_name$ = request.getParameterLong($field_class$.$key$, $defaultValue$)" description="get long from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field_class" expression="" defaultValue="&quot;SilvanParam&quot;" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
