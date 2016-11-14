@@ -12,9 +12,8 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="xlapi" value="    @Cmd(&quot;$api_desc$&quot;)&#10;    @CmdAuthor(&quot;&quot;)&#10;    @CmdSession(type = CmdSessionType.$require_session$)&#10;    @CmdParams({&#10;        &#10;    })&#10;    @CmdReturn&#10;    public Object $api_name$(XLHttpRequest request, XLHttpResponse response) {&#10;        return JsonObjectUtils.getRtnAndDataJsonObject(Rtn.OK);&#10;    }" description="add a xunlei style api" toReformat="false" toShortenFQNames="true">
+  <template name="xlapi" value="@Cmd(&quot;$api_desc$&quot;)&#10;@CmdAuthor(&quot;guoyufeng&quot;)&#10;@CmdSession(type = CmdSessionType.COMPELLED)&#10;@CmdParams({&#10;    &#10;})&#10;@CmdReturn&#10;public Object $api_name$(XLHttpRequest request, XLHttpResponse response) {&#10;    return JsonObjectUtils.getOnlyOkJson();&#10;}" description="add a xunlei style api" toReformat="false" toShortenFQNames="true">
     <variable name="api_desc" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="require_session" expression="" defaultValue="COMPELLED" alwaysStopAt="true" />
     <variable name="api_name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
