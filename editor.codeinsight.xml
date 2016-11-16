@@ -3,7 +3,6 @@
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
-    <option name="ADD_MEMBER_IMPORTS_ON_THE_FLY" value="false" />
     <EXCLUDED_PACKAGE NAME="com.sun" />
     <EXCLUDED_PACKAGE NAME="sun.jvm.hotspot.utilities.Assert" />
   </component>
