@@ -56,9 +56,11 @@
     <mouse-shortcut keystroke="shift meta button1" />
     <mouse-shortcut keystroke="shift button2" />
   </action>
+  <action id="ImplementMethods" />
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="ctrl meta alt r" />
   </action>
+  <action id="MethodHierarchy.ImplementMethodAction" />
   <action id="NewElementInMenuGroup">
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
@@ -85,4 +87,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="ToggleBookmark" />
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
 </keymap>
