@@ -59,7 +59,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="mock" value="public static $CLASS_NAME$ MOCK() {&#10;    return new $CLASS_NAME$($END$);&#10;}" description="add mock data function" toReformat="false" toShortenFQNames="true">
+  <template name="mock" value="public static $CLASS_NAME$ MOCK() {&#10;    return JsonObjectUtils.parseJson(&quot;$END$&quot;,$CLASS_NAME$.class);&#10;}" description="add mock data function" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
