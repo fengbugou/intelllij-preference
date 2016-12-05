@@ -1,0 +1,10 @@
+<templateSet group="dt_ruiz_jdbc">
+  <template name="getbean" value="public $BEAN_TYPE$ get(int $REFER_ID$) {&#10;    return jt_helcar.queryOne($BEAN_TYPE$.class, &quot;select * from $TABLE$ where $REFER_ID$=?&quot;, $REFER_ID$);&#10;}" description="get bean by jdbc" toReformat="false" toShortenFQNames="true">
+    <variable name="BEAN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REFER_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
