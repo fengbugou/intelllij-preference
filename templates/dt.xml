@@ -70,4 +70,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="emptylist" value="if (CollectionTools.isEmpty($source_list$)) {&#10;    return Collections.emptyList();&#10;}" description="return empty list if source list is empty" toReformat="false" toShortenFQNames="true">
+    <variable name="source_list" expression="variableOfType(&quot;List&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
