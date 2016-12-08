@@ -5,5 +5,11 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="SQL" injector-id="java">
+      <display-name>JdbcTemplate (com.mei.jdbc)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryInt").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("queryList").withParameters("java.lang.Class", "java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("queryOne").withParameters("java.lang.Class", "java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
+    </injection>
   </component>
 </application>
