@@ -77,6 +77,8 @@
     </context>
   </template>
   <template name="uidopt" value="int login_user_id = getUserIdSilently(request, response, false);" description="login_user_id optional" toReformat="false" toShortenFQNames="true">
-    <context />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
   </template>
 </templateSet>
