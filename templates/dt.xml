@@ -44,12 +44,6 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="getbool" value="boolean $field_name$ = request.getParameterBoolean($field_class$.$field_name$, $defaultValue$)" description="get boolean from XLHttpRequest" toReformat="false" toShortenFQNames="true">
-    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="field_class" expression="" defaultValue="&quot;SilvanParam&quot;" alwaysStopAt="true" />
-    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
   <template name="getlong" value="long $field_name$ = request.getParameterLong($field_class$.$field_name$, $defaultValue$)" description="get long from XLHttpRequest" toReformat="false" toShortenFQNames="true">
     <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="field_class" expression="" defaultValue="&quot;SilvanParam&quot;" alwaysStopAt="true" />
@@ -82,6 +76,14 @@
   </template>
   <template name="single" value="public static $CLASS_NAME$ INSTANCE;&#10;&#10;public $CLASS_NAME$() {&#10;    INSTANCE = this;&#10;}" description="single instance" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getbool" value="boolean $field_name$ = request.getParameterBoolean($field_class$.$field_name$, $defaultValue$)" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field_class" expression="" defaultValue="&quot;SilvanParam&quot;" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
