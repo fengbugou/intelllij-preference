@@ -8,7 +8,7 @@
     <injection language="SQL" injector-id="java">
       <display-name>JdbcTemplate (com.mei.jdbc)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryInt").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
-      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("queryList").withParameters("java.lang.Class", "java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("queryList").withParameters("java.lang.Class", "java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("queryOne").withParameters("java.lang.Class", "java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
     </injection>
   </component>
