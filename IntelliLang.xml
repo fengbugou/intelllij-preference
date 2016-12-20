@@ -11,7 +11,7 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryString").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("update").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("upsertOne").withParameters("java.lang.String", "java.lang.Object").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
-      <place disabled="true"><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("queryList").withParameters("java.lang.Class", "java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("queryList").withParameters("java.lang.Class", "java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("queryOne").withParameters("java.lang.Class", "java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
     </injection>
   </component>
