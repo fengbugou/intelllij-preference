@@ -1,5 +1,8 @@
 <templateSet group="Kotlin">
-  <template name="main" value="fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() function" toReformat="true" toShortenFQNames="true">
-    <context />
+  <template name="logger" value="companion object {&#10;    val log: Logger = LoggerFactory.getLogger($class$::class.java)&#10;}" description="new logger instance" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
   </template>
 </templateSet>
