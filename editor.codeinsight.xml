@@ -4,7 +4,15 @@
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_MEMBER_IMPORTS_ON_THE_FLY" value="false" />
+    <EXCLUDED_PACKAGE NAME="com.oracle.tools.packager.Log.Logger" />
     <EXCLUDED_PACKAGE NAME="com.sun" />
+    <EXCLUDED_PACKAGE NAME="io.vertx.core.logging.Logger" />
+    <EXCLUDED_PACKAGE NAME="io.vertx.core.logging.LoggerFactory" />
+    <EXCLUDED_PACKAGE NAME="java.util.logging.Logger" />
+    <EXCLUDED_PACKAGE NAME="jdk.internal.instrumentation.Logger" />
+    <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.runtime.logging.Logger" />
+    <EXCLUDED_PACKAGE NAME="org.apache.logging.log4j.Logger" />
+    <EXCLUDED_PACKAGE NAME="org.apache.logging.log4j.core.Logger" />
     <EXCLUDED_PACKAGE NAME="sun.jvm.hotspot.utilities.Assert" />
   </component>
 </application>
