@@ -1,0 +1,9 @@
+<templateSet group="dt_kongfu">
+  <template name="auto" value="val $name$: $clazz$ by KFAutowired()" description="autowired" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="kotlinSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clazz" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
