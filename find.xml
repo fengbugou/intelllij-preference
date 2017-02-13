@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'Wood'" />
-    <option name="defaultScopeName" value="Project 'Wood'" />
-    <option name="SEARCH_SCOPE" value="Project 'Wood'" />
+    <option name="customScope" value="Project 'library'" />
+    <option name="defaultScopeName" value="Project 'library'" />
+    <option name="SEARCH_SCOPE" value="Project 'library'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
