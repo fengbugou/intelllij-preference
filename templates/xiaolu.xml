@@ -1,0 +1,12 @@
+<templateSet group="xiaolu">
+  <template name="request" value=" APIClient.$client$.$api$($params$)&#10;                       .compose(this.&lt;BaseResponse&lt;$response$&gt;&gt;loadingTransformer())&#10;                       .compose(this.&lt;BaseResponse&lt;$response$&gt;&gt;schedulersTransformer())&#10;                       .subscribe(new CommonSubscriber&lt;BaseResponse&lt;$response$&gt;&gt;() {&#10;                           @Override&#10;                           public void onSuccess(BaseResponse&lt;Bar&gt; response) {&#10;                               $renderFunction$(response.getData());&#10;                           }&#10;                       });" description="make a request" toReformat="false" toShortenFQNames="true">
+    <variable name="client" expression="" defaultValue="&quot;vilya&quot;" alwaysStopAt="true" />
+    <variable name="api" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="response" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="renderFunction" expression="" defaultValue="&quot;render&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
