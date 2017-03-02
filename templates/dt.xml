@@ -100,4 +100,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="okand" value="return JsonObjectUtils.getRtnAndDataJsonObject(Rtn.OK, $data$);" description="return ok and data as result" toReformat="false" toShortenFQNames="true">
+    <variable name="data" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
