@@ -4,7 +4,7 @@
     <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
-    <option name="RESOLVE_REFERENCES" value="true" />
+    <option name="LOOK_FOR_VAR_ASSIGNMENTS" value="true" />
     <injection language="SQL" injector-id="java">
       <display-name>JdbcTemplate (com.mei.jdbc)</display-name>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("insertOne").withParameters("java.lang.String", "java.lang.Object").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
