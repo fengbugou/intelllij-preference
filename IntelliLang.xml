@@ -16,7 +16,8 @@
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("queryOne").withParameters("java.lang.Class", "java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
     </injection>
     <injection language="SQL" injector-id="java">
-      <display-name>SqlBuilder.SqlBuilder (com.mei.jdbc)</display-name>
+      <display-name>SqlBuilder (com.mei.jdbc)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("SqlBuilder").withParameters("java.lang.String").definedInClass("com.mei.jdbc.SqlBuilder"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("SqlBuilder").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.SqlBuilder"))]]></place>
     </injection>
   </component>
