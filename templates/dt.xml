@@ -7,8 +7,8 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="thr" value="throw RtnError.gen($error$.INSTANCE);" toReformat="false" toShortenFQNames="true">
-    <variable name="error" expression="subtypes(RtnError)" defaultValue="" alwaysStopAt="true" />
+  <template name="thr" value="throw Rtn.getError(SilvanRtn.$Error$);" toReformat="false" toShortenFQNames="true">
+    <variable name="Error" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
