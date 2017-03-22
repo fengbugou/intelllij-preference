@@ -4,7 +4,6 @@
     <variable name="var" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="KOTLIN" value="true" />
     </context>
   </template>
   <template name="thr" value="throw Rtn.getError(SilvanRtn.$Error$);" toReformat="false" toShortenFQNames="true">

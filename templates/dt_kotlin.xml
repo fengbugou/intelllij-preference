@@ -1,0 +1,9 @@
+<templateSet group="dt_kotlin">
+  <template name="auto" value="@Autowired&#10;private lateinit var $VARNAME$: $VARCLASS$" toReformat="false" toShortenFQNames="true">
+    <variable name="VARNAME" expression="kotlinSuggestVariableName()" defaultValue="&quot;bean&quot;" alwaysStopAt="true" />
+    <variable name="VARCLASS" expression="" defaultValue="&quot;cls&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
