@@ -25,6 +25,9 @@
     <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
   <action id="DumpLookupElementWeights" />
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
   <action id="EditorKillToWordStart">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
