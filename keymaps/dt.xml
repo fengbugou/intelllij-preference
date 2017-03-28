@@ -8,6 +8,12 @@
   <action id="CloseAllUnmodifiedEditors">
     <keyboard-shortcut first-keystroke="shift meta alt w" />
   </action>
+  <action id="Compare.SameVersion">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
+  <action id="Compare.Selected">
+    <keyboard-shortcut first-keystroke="ctrl meta c" />
+  </action>
   <action id="CompareClipboardWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
@@ -24,6 +30,8 @@
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyDdlAction" />
   <action id="DumpLookupElementWeights" />
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
