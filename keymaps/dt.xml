@@ -31,6 +31,8 @@
     <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
   <action id="CopyPaths" />
+  <action id="CopyThenJumpPaste" />
+  <action id="CopyWithoutSelect" />
   <action id="DatabaseView.CopyDdlAction" />
   <action id="DumpLookupElementWeights" />
   <action id="Editor SelectAll">
@@ -78,6 +80,8 @@
     <mouse-shortcut keystroke="shift meta button1" />
     <mouse-shortcut keystroke="shift button2" />
   </action>
+  <action id="HighlightNextSymbol" />
+  <action id="HighlightPrevSymbol" />
   <action id="ImplementMethods" />
   <action id="JRebel Debug">
     <keyboard-shortcut first-keystroke="alt d" />
@@ -85,6 +89,7 @@
   <action id="JRebel Executor">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="JustOneSpace" />
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="ctrl meta alt r" />
   </action>
