@@ -5,8 +5,8 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*Dao.java" />
     <recentFileMasks>
-      <mask>*.properties</mask>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
       <mask>*.java</mask>
@@ -14,8 +14,6 @@
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*Dao.java</mask>
-      <mask>*Cmd.java</mask>
       <mask>*p</mask>
       <mask>*po</mask>
       <mask>*po'm</mask>
@@ -29,6 +27,16 @@
       <mask>*rtn</mask>
       <mask>*rtn.</mask>
       <mask>*rtn.java</mask>
+      <mask>*C.java</mask>
+      <mask>*Cm.java</mask>
+      <mask>*Cmd.java</mask>
+      <mask>*D.java</mask>
+      <mask>*Dao.java.java</mask>
+      <mask>*Dao.jav.java</mask>
+      <mask>*Dao.ja.java</mask>
+      <mask>*Dao.j.java</mask>
+      <mask>*Dao..java</mask>
+      <mask>*Dao.java</mask>
     </recentFileMasks>
   </component>
 </application>
