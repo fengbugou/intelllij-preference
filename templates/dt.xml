@@ -113,4 +113,10 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="ret" value="return result$END$;" description="return result;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
