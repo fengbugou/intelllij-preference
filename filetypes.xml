@@ -5,6 +5,7 @@
       <mapping pattern="runnew" type="PLAIN_TEXT" />
       <mapping ext="aar" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
+      <mapping ext="jsonlines" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
