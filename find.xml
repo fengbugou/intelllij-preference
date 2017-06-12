@@ -7,8 +7,8 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*Cmd.java" />
     <recentFileMasks>
-      <mask>*.html</mask>
       <mask>*.jsp</mask>
       <mask>*.java</mask>
       <mask>*.js</mask>
@@ -28,9 +28,6 @@
       <mask>*rtn</mask>
       <mask>*rtn.</mask>
       <mask>*rtn.java</mask>
-      <mask>*C.java</mask>
-      <mask>*Cm.java</mask>
-      <mask>*Cmd.java</mask>
       <mask>*D.java</mask>
       <mask>*Dao.java.java</mask>
       <mask>*Dao.jav.java</mask>
@@ -38,6 +35,10 @@
       <mask>*Dao.j.java</mask>
       <mask>*Dao..java</mask>
       <mask>*Dao.java</mask>
+      <mask>*C.java</mask>
+      <mask>*Cm.java</mask>
+      <mask>*Cmd.java.java</mask>
+      <mask>*Cmd.java</mask>
     </recentFileMasks>
   </component>
 </application>
