@@ -5,9 +5,8 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*xml" />
     <recentFileMasks>
-      <mask>*.jsp</mask>
-      <mask>*.java</mask>
       <mask>*.js</mask>
       <mask>*.as</mask>
       <mask>*.css</mask>
@@ -36,6 +35,8 @@
       <mask>*Cm.java</mask>
       <mask>*Cmd.java.java</mask>
       <mask>*Cmd.java</mask>
+      <mask>*xm</mask>
+      <mask>*xml</mask>
     </recentFileMasks>
   </component>
 </application>
