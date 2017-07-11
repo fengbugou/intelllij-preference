@@ -1,16 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
+    <option name="customScope" value="Project 'aman'" />
+    <option name="defaultScopeName" value="Project 'aman'" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="Project 'aman'" />
+    <option name="FILE_MASK" value="*Bo.java" />
     <recentFileMasks>
-      <mask>*.js</mask>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
-      <mask>*p</mask>
       <mask>*po</mask>
       <mask>*po'm</mask>
       <mask>*pom</mask>
@@ -36,6 +32,11 @@
       <mask>*Cmd.java</mask>
       <mask>*xm</mask>
       <mask>*xml</mask>
+      <mask>*B</mask>
+      <mask>*Bo</mask>
+      <mask>*Bo.</mask>
+      <mask>*Bo.jav</mask>
+      <mask>*Bo.java</mask>
     </recentFileMasks>
   </component>
 </application>
