@@ -5,9 +5,8 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.java" />
     <recentFileMasks>
-      <mask>*po</mask>
-      <mask>*po'm</mask>
       <mask>*pom</mask>
       <mask>*pom.</mask>
       <mask>*pom.xml</mask>
@@ -36,6 +35,8 @@
       <mask>*Bo.</mask>
       <mask>*Bo.jav</mask>
       <mask>*Bo.java</mask>
+      <mask>*o.java</mask>
+      <mask>*.java</mask>
     </recentFileMasks>
   </component>
 </application>
