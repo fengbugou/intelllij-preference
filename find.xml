@@ -3,8 +3,8 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*Dao.java" />
     <recentFileMasks>
-      <mask>*pom</mask>
       <mask>*pom.</mask>
       <mask>*pom.xml</mask>
       <mask>pom.xml</mask>
@@ -14,13 +14,11 @@
       <mask>*rtn</mask>
       <mask>*rtn.</mask>
       <mask>*rtn.java</mask>
-      <mask>*D.java</mask>
       <mask>*Dao.java.java</mask>
       <mask>*Dao.jav.java</mask>
       <mask>*Dao.ja.java</mask>
       <mask>*Dao.j.java</mask>
       <mask>*Dao..java</mask>
-      <mask>*Dao.java</mask>
       <mask>*C.java</mask>
       <mask>*Cm.java</mask>
       <mask>*Cmd.java.java</mask>
@@ -34,6 +32,9 @@
       <mask>*Bo.java</mask>
       <mask>*o.java</mask>
       <mask>*.java</mask>
+      <mask>*D.java</mask>
+      <mask>*Da.java</mask>
+      <mask>*Dao.java</mask>
     </recentFileMasks>
   </component>
 </application>
