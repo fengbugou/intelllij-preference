@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/vert-x3/vertx-examples/" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="ssh://git@ph.huainanhai.com:2222/source/melkor.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Developer/Code/java" />
+    <option name="cloneParentDir" value="$USER_HOME$/Developer/Code/workspace/idea" />
   </component>
 </application>
