@@ -11,4 +11,18 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="xlapi" value="@Cmd(&quot;$api_desc$&quot;)&#10;@CmdTag(SilvanCmdTags.v1_9_for_client)&#10;@CmdAuthor(&quot;guoyufeng&quot;)&#10;@CmdSession(type = CmdSessionType.COMPELLED)&#10;@CmdParams({&#10;    &#10;})&#10;@CmdReturn&#10;fun $api_name$(XLHttpRequest request, XLHttpResponse response): Any {&#10;    val login_user_id = getMainParam(request, response).getUser_id();&#10;    val result = LinkedHashMap&lt;String, Any&gt;()&#10;    return JsonObjectUtils.getRtnAndDataJsonObject(Rtn.OK, result);&#10;}" description="xlapi" toReformat="false" toShortenFQNames="true">
+    <variable name="api_desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="api_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="xlparam" value="CmdParam(name = SilvanParam.$NAME$, type = $TYPE$::class, desc = arrayOf(&quot;$END$&quot;))" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
