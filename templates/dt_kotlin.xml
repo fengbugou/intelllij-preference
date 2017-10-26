@@ -18,14 +18,14 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="xlparam" value="CmdParam(name = SilvanParam.$NAME$, type = $TYPE$::class, desc = arrayOf(&quot;$END$&quot;))" toReformat="false" toShortenFQNames="true">
+  <template name="xlparam" value="CmdParam(name = SilvanParam.$NAME$, type = $TYPE$::class, desc = arrayOf(&quot;$END$&quot;))" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="uid" value="val login_user_id = getMainParamSilently(request, response).user_id" toReformat="false" toShortenFQNames="true">
+  <template name="uid" value="val login_user_id = getMainParamSilently(request, response).user_id" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
