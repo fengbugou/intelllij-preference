@@ -5,9 +5,8 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="pom.xml" />
     <recentFileMasks>
-      <mask>*Dao.java.java</mask>
-      <mask>*Dao.jav.java</mask>
       <mask>*Dao.ja.java</mask>
       <mask>*Dao.j.java</mask>
       <mask>*Dao..java</mask>
@@ -34,8 +33,10 @@
       <mask>o</mask>
       <mask>po</mask>
       <mask>pom</mask>
-      <mask>pom.xml</mask>
       <mask>*.xml</mask>
+      <mask>.xml</mask>
+      <mask>po.xml</mask>
+      <mask>pom.xml</mask>
     </recentFileMasks>
   </component>
 </application>
