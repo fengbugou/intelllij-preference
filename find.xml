@@ -1,18 +1,11 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*Dao.ja.java</mask>
-      <mask>*Dao.j.java</mask>
-      <mask>*Dao..java</mask>
-      <mask>*C.java</mask>
-      <mask>*Cm.java</mask>
-      <mask>*Cmd.java.java</mask>
-      <mask>*Cmd.java</mask>
       <mask>*xm</mask>
       <mask>*xml</mask>
       <mask>*B</mask>
@@ -23,7 +16,6 @@
       <mask>*o.java</mask>
       <mask>*D.java</mask>
       <mask>*Da.java</mask>
-      <mask>*Dao.java</mask>
       <mask>*.java</mask>
       <mask>ipo</mask>
       <mask>ip</mask>
@@ -36,6 +28,14 @@
       <mask>.xml</mask>
       <mask>po.xml</mask>
       <mask>pom.xml</mask>
+      <mask>dao</mask>
+      <mask>dao.</mask>
+      <mask>dao.j</mask>
+      <mask>dao.jav</mask>
+      <mask>dao.java</mask>
+      <mask>*dao.java</mask>
+      <mask>*Ddao.java</mask>
+      <mask>*Dao.java</mask>
     </recentFileMasks>
   </component>
 </application>
