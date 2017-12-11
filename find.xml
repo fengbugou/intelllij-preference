@@ -4,17 +4,6 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>*xm</mask>
-      <mask>*xml</mask>
-      <mask>*B</mask>
-      <mask>*Bo</mask>
-      <mask>*Bo.</mask>
-      <mask>*Bo.jav</mask>
-      <mask>*Bo.java</mask>
-      <mask>*o.java</mask>
-      <mask>*D.java</mask>
-      <mask>*Da.java</mask>
-      <mask>*.java</mask>
       <mask>ipo</mask>
       <mask>ip</mask>
       <mask>i</mask>
@@ -34,6 +23,17 @@
       <mask>*dao.java</mask>
       <mask>*Ddao.java</mask>
       <mask>*Dao.java</mask>
+      <mask>R</mask>
+      <mask>R.</mask>
+      <mask>R.jav</mask>
+      <mask>R.java</mask>
+      <mask>s</mask>
+      <mask>st</mask>
+      <mask>strin</mask>
+      <mask>string</mask>
+      <mask>string.</mask>
+      <mask>string.xml</mask>
+      <mask>strings.xml</mask>
     </recentFileMasks>
   </component>
 </application>
