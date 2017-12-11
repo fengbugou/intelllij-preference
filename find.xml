@@ -4,42 +4,40 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
     <option name="localRegularExpressions" value="true" />
-    <option name="regularExpressions" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>ipo</mask>
-      <mask>ip</mask>
-      <mask>i</mask>
-      <mask>oi</mask>
-      <mask>o</mask>
-      <mask>po</mask>
-      <mask>pom</mask>
-      <mask>*.xml</mask>
-      <mask>.xml</mask>
-      <mask>po.xml</mask>
-      <mask>pom.xml</mask>
-      <mask>dao</mask>
-      <mask>dao.</mask>
-      <mask>dao.j</mask>
-      <mask>dao.jav</mask>
-      <mask>dao.java</mask>
-      <mask>*dao.java</mask>
-      <mask>*Ddao.java</mask>
-      <mask>*Dao.java</mask>
-      <mask>R</mask>
-      <mask>R.</mask>
-      <mask>R.jav</mask>
-      <mask>R.java</mask>
-      <mask>s</mask>
-      <mask>st</mask>
-      <mask>strin</mask>
       <mask>string</mask>
       <mask>string.</mask>
       <mask>string.xml</mask>
       <mask>strings.xml</mask>
+      <mask>.</mask>
+      <mask>.*</mask>
+      <mask>.*no</mask>
+      <mask>.*not</mask>
+      <mask>.*noti</mask>
+      <mask>.*notif</mask>
+      <mask>.*notify.jav</mask>
+      <mask>.*notify.java</mask>
+      <mask>.*notify..java</mask>
+      <mask>.*notify.*.java</mask>
+      <mask>.*notify</mask>
+      <mask>.*notify.</mask>
+      <mask>.*notify.*</mask>
+      <mask>no</mask>
+      <mask>noti</mask>
+      <mask>notif</mask>
+      <mask>notify</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>.*.java</mask>
+      <mask>*.java</mask>
+      <mask>no*.java</mask>
+      <mask>noti*.java</mask>
+      <mask>notif*.java</mask>
+      <mask>notify*.java</mask>
+      <mask>*notify*.java</mask>
     </recentFileMasks>
   </component>
 </application>
