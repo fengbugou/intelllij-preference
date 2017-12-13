@@ -30,4 +30,32 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="getstr" value="val $field_name$ = request.getParameter(&quot;$field_name$&quot;, $defaultValue$)" description="get string from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="getbool" value="val $field_name$ = request.getParameterBoolean(&quot;$field_name$&quot;, $defaultValue$)" description="get bool from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="getint" value="val $field_name$ = request.getParameterInteger(&quot;$field_name$&quot;, $defaultValue$)" description="get int from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="getlong" value="val $field_name$ = request.getParameterLong(&quot;$field_name$&quot;, $defaultValue$)" description="get long from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
