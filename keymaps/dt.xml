@@ -66,6 +66,7 @@
   <action id="EditorScrollTop">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="t" />
   </action>
+  <action id="ExpressionTypeInfo" />
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="shift meta alt r" />
   </action>
@@ -105,6 +106,9 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="OpenInBrowser">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="f1" />
     <mouse-shortcut keystroke="control button2" />
