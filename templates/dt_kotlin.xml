@@ -11,7 +11,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="xlapi" value="@Cmd(&quot;$api_desc$&quot;)&#10;@CmdTag(SilvanCmdTags.v2_0_3_for_client)&#10;@CmdAuthor(&quot;guoyufeng&quot;)&#10;@CmdSession(type = CmdSessionType.COMPELLED)&#10;@CmdParams({&#10;    &#10;})&#10;@CmdReturn&#10;fun $api_name$(request: XLHttpRequest, response: XLHttpResponse): Any {&#10;    val login_user_id = getMainParam(request, response).getUser_id();&#10;    val result = LinkedHashMap&lt;String, Any&gt;()&#10;    return JsonObjectUtils.getRtnAndDataJsonObject(Rtn.OK, result);&#10;}" description="xlapi" toReformat="false" toShortenFQNames="true">
+  <template name="xlapi" value="@Cmd(&quot;$api_desc$&quot;)&#10;@CmdTag(SilvanCmdTags.v2_0_3_for_client)&#10;@CmdAuthor(&quot;guoyufeng&quot;)&#10;@CmdSession(type = CmdSessionType.COMPELLED)&#10;@CmdParams({&#10;    &#10;})&#10;@CmdReturn&#10;fun $api_name$(request: XLHttpRequest, response: XLHttpResponse): Any {&#10;    val login_user_id = getMainParam(request, response).user_id&#10;    val result = LinkedHashMap&lt;String, Any&gt;()&#10;    return JsonObjectUtils.getRtnAndDataJsonObject(Rtn.OK, result)&#10;}" description="xlapi" toReformat="false" toShortenFQNames="true">
     <variable name="api_desc" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="api_name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
