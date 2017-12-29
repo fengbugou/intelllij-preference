@@ -3,10 +3,8 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*Dao*.java" />
     <recentFileMasks>
-      <mask>.*not</mask>
-      <mask>.*noti</mask>
-      <mask>.*notif</mask>
       <mask>.*notify.jav</mask>
       <mask>.*notify.java</mask>
       <mask>.*notify..java</mask>
@@ -34,6 +32,9 @@
       <mask>u*.java</mask>
       <mask>user*.java</mask>
       <mask>*user*.java</mask>
+      <mask>*D*.java</mask>
+      <mask>*Da*.java</mask>
+      <mask>*Dao*.java</mask>
     </recentFileMasks>
   </component>
 </application>
