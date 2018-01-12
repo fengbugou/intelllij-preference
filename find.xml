@@ -23,8 +23,6 @@
       <mask>notif*.java</mask>
       <mask>notify*.java</mask>
       <mask>*notify*.java</mask>
-      <mask>.xml</mask>
-      <mask>.</mask>
       <mask>.ja</mask>
       <mask>.java</mask>
       <mask>*.java</mask>
@@ -34,6 +32,8 @@
       <mask>*D*.java</mask>
       <mask>*Da*.java</mask>
       <mask>*Dao*.java</mask>
+      <mask>.</mask>
+      <mask>.xml</mask>
     </recentFileMasks>
   </component>
 </application>
