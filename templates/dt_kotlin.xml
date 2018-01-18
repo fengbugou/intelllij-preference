@@ -58,4 +58,9 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="clienti" value="val clientInfo = ClientInfo.of(request);" description="new ClientInfo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
