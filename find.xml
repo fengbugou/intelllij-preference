@@ -5,8 +5,8 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.kt" />
     <recentFileMasks>
-      <mask>.*notify..java</mask>
       <mask>.*notify.*.java</mask>
       <mask>.*notify</mask>
       <mask>.*notify.</mask>
@@ -36,6 +36,7 @@
       <mask>.j</mask>
       <mask>.java</mask>
       <mask>*Dao.java</mask>
+      <mask>*.kt</mask>
     </recentFileMasks>
   </component>
 </application>
