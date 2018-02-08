@@ -2,38 +2,18 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <recentFileMasks>
-      <mask>.*notify</mask>
-      <mask>.*notify.</mask>
-      <mask>.*notify.*</mask>
-      <mask>no</mask>
-      <mask>noti</mask>
-      <mask>notif</mask>
-      <mask>notify</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
-      <mask>.*.java</mask>
-      <mask>no*.java</mask>
-      <mask>noti*.java</mask>
-      <mask>notif*.java</mask>
-      <mask>notify*.java</mask>
-      <mask>*notify*.java</mask>
-      <mask>.ja</mask>
-      <mask>u*.java</mask>
-      <mask>user*.java</mask>
-      <mask>*user*.java</mask>
-      <mask>*D*.java</mask>
-      <mask>*Da*.java</mask>
-      <mask>*Dao*.java</mask>
-      <mask>.</mask>
-      <mask>.xml</mask>
-      <mask>.j</mask>
-      <mask>.java</mask>
-      <mask>*Dao.java</mask>
-      <mask>*.kt</mask>
-      <mask>*.java</mask>
-      <mask>*Cmd.java</mask>
-    </recentFileMasks>
+    <mask>*.properties</mask>
+    <mask>*.html</mask>
+    <mask>*.jsp</mask>
+    <mask>*.xml</mask>
+    <mask>*.java</mask>
+    <mask>*.js</mask>
+    <mask>*.as</mask>
+    <mask>*.css</mask>
+    <mask>*.mxml</mask>
+    <mask>*Dao.java</mask>
   </component>
 </application>
