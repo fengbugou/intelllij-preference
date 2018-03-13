@@ -1,5 +1,5 @@
 <templateSet group="dt">
-  <template name="auto" value="@Autowired private $cls$ $var$;" description="autowired field" toReformat="false" toShortenFQNames="true">
+  <template name="auto" value="@Autowired&#10;private $cls$ $var$;" description="autowired field" toReformat="false" toShortenFQNames="true">
     <variable name="cls" expression="typeOfVariable(VAR)" defaultValue="" alwaysStopAt="true" />
     <variable name="var" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
