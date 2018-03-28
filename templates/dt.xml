@@ -1,5 +1,5 @@
 <templateSet group="dt">
-  <template name="auto" value="@Autowired private $cls$ $var$;" description="autowired field" toReformat="false" toShortenFQNames="true">
+  <template name="auto" value="@Autowired&#10;private $cls$ $var$;" description="autowired field" toReformat="false" toShortenFQNames="true">
     <variable name="cls" expression="typeOfVariable(VAR)" defaultValue="" alwaysStopAt="true" />
     <variable name="var" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -114,11 +114,6 @@
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="KOTLIN" value="true" />
-    </context>
-  </template>
-  <template name="clienti" value="ClientInfo clientInfo = ClientInfo.of(request);" description="new CilentInfo instance" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_CODE" value="true" />
     </context>
   </template>
 </templateSet>

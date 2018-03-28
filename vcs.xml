@@ -14,8 +14,12 @@
           <option name="url" value="ssh://git@ph.huainanhai.com:2222/source/androidlib.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://guoyufeng@git.dotransit.org/toB/report-service.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Developer/Code/workspace/idea/melkor" />
+    <option name="cloneParentDir" value="$USER_HOME$/Developer/Code/workspace/idea/" />
   </component>
 </application>
