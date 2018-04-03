@@ -116,7 +116,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="facmd" value="@Cmd(desc = &quot;$END$&quot;,&#10;&#9;params = {&#10;&#9;&#9;@CmdParam(name = &quot;&quot;, desc = &quot;&quot;, type = String.class, compelled = true, defaultValue = &quot;&quot;)&#10;&#9;},&#10;&#9;returnValue = &quot;&quot;)" description="add new falcon cmd" toReformat="false" toShortenFQNames="true">
+  <template name="facmd" value="@Cmd(desc = &quot;$END$&quot;,&#10;&#9;params = {&#10;&#9;&#9;@CmdParam(name = &quot;&quot;, desc = &quot;&quot;, type = String.class, compelled = true, defaultValue = &quot;&quot;)&#10;&#9;},&#10;&#9;returnValue = {&#10;    &#10;    })" description="add new falcon cmd" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
