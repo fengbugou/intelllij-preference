@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern="healthy_check" type="PLAIN_TEXT" />
       <mapping pattern="ruiz_cookies" type="PLAIN_TEXT" />
       <mapping pattern="Optional" type="PLAIN_TEXT" />
       <mapping pattern="synctoseal" type="PLAIN_TEXT" />
