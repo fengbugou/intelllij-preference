@@ -11,10 +11,10 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.java</mask>
-    <mask>*.xml</mask>
     <mask>*Dao.java</mask>
     <mask>*Controller.java</mask>
     <mask>*Mapper.xml</mask>
     <mask>*.kt</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
