@@ -63,4 +63,11 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="thr" value="throw RtnError(RespCode.$CODE$, &quot;$MSG$&quot;);" description="throw error" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
