@@ -11,7 +11,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="xlapi" value="@Cmd(desc = &quot;$END$&quot;,&#10;        params = [CmdParam(name = &quot;&quot;, desc = &quot;&quot;, type = String::class)],&#10;        returnValue = [&quot;&quot;&quot;&#10;        {&#10;&#10;        }&#10;                &quot;&quot;&quot;]&#10;    )&#10;    @RequestMapping(&quot;/$API_PATH$&quot;)&#10;    @ResponseBody&#10;    fun $API_PATH_CAMEL$(request: HttpServletRequest): Any {&#10;        return JsonResp.JUST_OK&#10;    }" description="xlapi" toReformat="false" toShortenFQNames="true">
+  <template name="xlapi" value="@Cmd(desc = &quot;$END$&quot;,&#10;        params = [&#10;            CmdParam(name = &quot;&quot;, desc = &quot;&quot;, type = String::class)&#10;        ],&#10;        returnValue = [&quot;&quot;&quot;&#10;        {&#10;&#10;        }&#10;                &quot;&quot;&quot;]&#10;    )&#10;    @RequestMapping(&quot;/$API_PATH$&quot;)&#10;    @ResponseBody&#10;    fun $API_PATH_CAMEL$(request: HttpServletRequest): Any {&#10;        return JsonResp.JUST_OK&#10;    }" description="xlapi" toReformat="false" toShortenFQNames="true">
     <variable name="API_PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="API_PATH_CAMEL" expression="camelCase($API_PATH$)" defaultValue="" alwaysStopAt="true" />
     <context>
