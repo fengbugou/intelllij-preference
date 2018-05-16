@@ -2,14 +2,15 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
-      <mapping pattern="healthy_check" type="PLAIN_TEXT" />
       <mapping pattern="ruiz_cookies" type="PLAIN_TEXT" />
       <mapping pattern="Optional" type="PLAIN_TEXT" />
       <mapping pattern="synctoseal" type="PLAIN_TEXT" />
       <mapping pattern="giveup" type="PLAIN_TEXT" />
       <mapping pattern="runnew" type="PLAIN_TEXT" />
+      <mapping pattern="healthy_check" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
       <mapping ext="aar" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="jsonlines" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
     </extensionMap>
