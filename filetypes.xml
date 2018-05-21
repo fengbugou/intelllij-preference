@@ -8,6 +8,7 @@
       <mapping pattern="giveup" type="PLAIN_TEXT" />
       <mapping pattern="runnew" type="PLAIN_TEXT" />
       <mapping pattern="healthy_check" type="PLAIN_TEXT" />
+      <mapping ext="codec" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
       <mapping ext="aar" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
