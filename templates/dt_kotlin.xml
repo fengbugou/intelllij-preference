@@ -29,30 +29,30 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="getstr" value="val $field_name$ = request.getParameter(&quot;$field_name$&quot;, $defaultValue$)" description="get string from XLHttpRequest" toReformat="false" toShortenFQNames="true">
-    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="getstr" value="val $varName$ = request.getParamStringCompelled(&quot;$paramName$&quot;)" description="get string from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="paramName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="varName" expression="underscoresToCamelCase(paramName)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="getbool" value="val $field_name$ = request.getParameterBoolean(&quot;$field_name$&quot;, $defaultValue$)" description="get bool from XLHttpRequest" toReformat="false" toShortenFQNames="true">
-    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="defaultValue" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+  <template name="getbool" value="val $varName$ = request.getParamBooleanCompelled(&quot;$paramName$&quot;)" description="get bool from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="paramName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="varName" expression="underscoresToCamelCase(paramName)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="getint" value="val $field_name$ = request.getParameterInteger(&quot;$field_name$&quot;, $defaultValue$)" description="get int from XLHttpRequest" toReformat="false" toShortenFQNames="true">
-    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="getint" value="val $varName$ = request.getParamIntCompelled(&quot;$paramName$&quot;)" description="get int from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="paramName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="varName" expression="underscoresToCamelCase(paramName)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="getlong" value="val $field_name$ = request.getParameterLong(&quot;$field_name$&quot;, $defaultValue$)" description="get long from XLHttpRequest" toReformat="false" toShortenFQNames="true">
-    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="getlong" value="val $varName$ = request.getParamLongCompelled(&quot;$paramName$&quot;)" description="get long from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="paramName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="varName" expression="underscoresToCamelCase(paramName)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
     </context>
