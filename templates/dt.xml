@@ -121,7 +121,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="valueofenum" value="public static $CLASS$ valueOfSafe(String enumAsStr, $CLASS$ defaultValue) {&#10;    if (enumAsStr == null) {&#10;        return defaultValue;&#10;    }&#10;    return Stream.of(values())&#10;              .filter(e -&gt; e.name().equals(enumAsStr))&#10;              .findAny()&#10;              .orElse(defaultValue); &#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="valueofenum" value="public static $CLASS$ valueOfSafe(String enumAsStr, $CLASS$ defaultValue) {&#10;    if (enumAsStr == null) {&#10;        return defaultValue;&#10;    }&#10;    return Stream.of(values())&#10;              .filter(e -&gt; e.name().equals(enumAsStr))&#10;              .findAny()&#10;              .orElse(defaultValue); &#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
