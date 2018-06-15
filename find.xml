@@ -1,18 +1,15 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '~/.m2/repository/com/alibaba/druid/1.1.10/druid-1.1.10-sources.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.java [Maven: com.alibaba:druid:1.1.10]'" />
-    <option name="defaultScopeName" value="File '~/.m2/repository/com/alibaba/druid/1.1.10/druid-1.1.10-sources.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.java [Maven: com.alibaba:druid:1.1.10]'" />
-    <option name="localCaseSensitive" value="true" />
-    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '~/.m2/repository/com/alibaba/druid/1.1.10/druid-1.1.10-sources.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.java [Maven: com.alibaba:druid:1.1.10]'" />
-    <option name="FILE_MASK" value="pom.xml" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.java" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.java</mask>
     <mask>*Controller.java</mask>
     <mask>*Mapper.xml</mask>
     <mask>*.kt</mask>
@@ -20,5 +17,6 @@
     <mask>*.xml</mask>
     <mask>*Dao.java</mask>
     <mask>pom.xml</mask>
+    <mask>*.java</mask>
   </component>
 </application>
