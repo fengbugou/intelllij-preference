@@ -1,6 +1,7 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
+      <blacklist language="TypeScript" />
       <blacklist language="Java">
         <added pattern="com.mei.jdbc.JdbcTemplate.queryOne(clazz,sql,args)" />
         <added pattern="com.mei.util.JsonObjectUtils.buildMap(keyValue)" />
