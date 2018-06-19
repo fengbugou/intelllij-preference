@@ -37,6 +37,9 @@
   <action id="CopyThenJumpPaste" />
   <action id="CopyWithoutSelect" />
   <action id="DatabaseView.CopyDdlAction" />
+  <action id="DatabaseView.Ddl.AddTable">
+    <keyboard-shortcut first-keystroke="ctrl 5" />
+  </action>
   <action id="DumpLookupElementWeights" />
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
@@ -82,6 +85,7 @@
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
+  <action id="GotoBookmark5" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="button2" />
