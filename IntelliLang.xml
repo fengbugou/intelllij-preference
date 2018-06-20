@@ -23,6 +23,10 @@
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("queryList").withParameters("java.lang.Class", "java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("queryOne").withParameters("java.lang.Class", "java.lang.String", "java.lang.Object...").definedInClass("com.mei.jdbc.JdbcTemplate"))]]></place>
     </injection>
+    <injection language="RoomSql" injector-id="java">
+      <display-name>JdbcTemplate.queryString (com.falcon.jdbc)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryString").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.falcon.jdbc.JdbcTemplate"))]]></place>
+    </injection>
     <injection language="SQL" injector-id="java">
       <display-name>SqlBuilder (com.mei.jdbc)</display-name>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("SqlBuilder").withParameters("java.lang.String").definedInClass("com.mei.jdbc.SqlBuilder"))]]></place>
