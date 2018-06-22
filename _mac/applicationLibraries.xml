@@ -1,5 +1,14 @@
 <application>
   <component name="libraryTable">
+    <library name="bigdecimal (v1.2.8, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file:///usr/lib/ruby/2.3.0/bigdecimal" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/lib/ruby/2.3.0/bigdecimal" />
+      </SOURCES>
+    </library>
     <library name="boom (v0.5.0, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file:///Library/Ruby/Gems/2.3.0/gems/boom-0.5.0/bin" />
@@ -100,6 +109,15 @@
         <root url="file:///usr/lib/ruby/2.3.0/universal-darwin17" />
       </SOURCES>
     </library>
+    <library name="json (v1.8.3, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file:///usr/lib/ruby/2.3.0/json/add" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/lib/ruby/2.3.0/json/add" />
+      </SOURCES>
+    </library>
     <library name="libxml-ruby (v2.9.0, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file:///System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/ext" />
@@ -155,6 +173,21 @@
         <root url="file:///Library/Ruby/Gems/2.3.0/gems/power_assert-0.2.6/lib" />
       </SOURCES>
     </library>
+    <library name="psych (v2.1.0, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file:///usr/lib/ruby/2.3.0/psych/visitors" />
+        <root url="file:///usr/lib/ruby/2.3.0/psych/nodes" />
+        <root url="file:///usr/lib/ruby/2.3.0/psych/handlers" />
+        <root url="file:///usr/lib/ruby/2.3.0/psych/json" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/lib/ruby/2.3.0/psych/visitors" />
+        <root url="file:///usr/lib/ruby/2.3.0/psych/nodes" />
+        <root url="file:///usr/lib/ruby/2.3.0/psych/handlers" />
+        <root url="file:///usr/lib/ruby/2.3.0/psych/json" />
+      </SOURCES>
+    </library>
     <library name="Python 2.7.13 (/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7) interpreter library">
       <CLASSES />
       <JAVADOC />
@@ -171,6 +204,31 @@
         <root url="file:///Library/Ruby/Gems/2.3.0/gems/rake-10.4.2/bin" />
         <root url="file:///Library/Ruby/Gems/2.3.0/gems/rake-10.4.2/lib" />
         <root url="file:///Library/Ruby/Gems/2.3.0/gems/rake-10.4.2/rakelib" />
+      </SOURCES>
+    </library>
+    <library name="rdoc (v4.2.1, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/markup" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/parser" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/context" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/ri" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/i18n" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/generator" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/stats" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/rd" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/markdown" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/markup" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/parser" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/context" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/ri" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/i18n" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/generator" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/stats" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/rd" />
+        <root url="file:///usr/lib/ruby/2.3.0/rdoc/markdown" />
       </SOURCES>
     </library>
     <library name="sqlite3 (v1.3.11, ruby-2.3.3-p222) [gem]">
