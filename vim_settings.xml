@@ -9,13 +9,21 @@
         <mark key="]" line="355" column="76" />
         <mark key="." line="355" column="76" />
       </file>
+      <file name="$USER_HOME$/Developer/Code/workspace/pkb/HyunServer/src/main/java/com/pkb/cloud/redis/JedisDao.java" timestamp="1530149912093">
+        <mark key="[" line="47" column="29" />
+        <mark key="]" line="74" column="0" />
+        <mark key="." line="74" column="0" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="355" column="76" filename="$USER_HOME$/Developer/Code/workspace/idea/silvan/vilya/src/main/java/com/sinx/silvan/bo/TopicBo.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>)</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGplZGlzLmV4aXN0cyhrZXlzKTsK</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIGplZGlzLmV4aXN0cyhrZXlzKTsK</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -25,7 +33,12 @@
       <last-dir>0</last-dir>
       <show-last>false</show-last>
     </search>
-    <history />
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed E</text>
