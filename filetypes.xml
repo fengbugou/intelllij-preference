@@ -9,6 +9,7 @@
       <mapping pattern="non_movie_names" type="PLAIN_TEXT" />
       <mapping pattern="runnew" type="PLAIN_TEXT" />
       <mapping pattern="non_movie_names_after" type="PLAIN_TEXT" />
+      <mapping pattern="jreboot" type="PLAIN_TEXT" />
       <mapping pattern="syncjar" type="PLAIN_TEXT" />
       <mapping pattern="getserverversion" type="PLAIN_TEXT" />
       <mapping pattern="healthy_check" type="PLAIN_TEXT" />
