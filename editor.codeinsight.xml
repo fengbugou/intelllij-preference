@@ -13,6 +13,7 @@
     <EXCLUDED_PACKAGE NAME="java.util.logging.Logger" />
     <EXCLUDED_PACKAGE NAME="javax.print.DocFlavor.URL" />
     <EXCLUDED_PACKAGE NAME="jdk.internal.instrumentation.Logger" />
+    <EXCLUDED_PACKAGE NAME="jdk.internal.jline.internal.Nullable" />
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.runtime.logging.Logger" />
     <EXCLUDED_PACKAGE NAME="org.apache.logging.log4j.Logger" />
     <EXCLUDED_PACKAGE NAME="org.apache.logging.log4j.core.Logger" />
