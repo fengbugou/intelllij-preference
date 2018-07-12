@@ -1,6 +1,14 @@
 <keymap version="1" name="dt" parent="Mac OS X 10.5+">
   <action id="ActivateDatabaseToolWindow">
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
+    <keyboard-shortcut first-keystroke="meta 7" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateMavenProjectsToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
   </action>
   <action id="Android.RunAndroidSdkManager">
     <keyboard-shortcut first-keystroke="ctrl meta alt s" />
@@ -41,6 +49,7 @@
     <keyboard-shortcut first-keystroke="ctrl 5" />
   </action>
   <action id="DumpLookupElementWeights" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
   </action>
@@ -79,6 +88,7 @@
   <action id="ExternalSystem_3ea46fc2demoff9a6810build">
     <keyboard-shortcut first-keystroke="ctrl meta c" />
   </action>
+  <action id="FileChooser.GotoProject" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
