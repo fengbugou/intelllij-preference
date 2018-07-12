@@ -34,6 +34,9 @@
   <action id="Console.TableResult.EditFilterCriteria">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="Console.TableResult.NavigateAction">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="button2" />
@@ -44,12 +47,31 @@
   <action id="CopyPaths" />
   <action id="CopyThenJumpPaste" />
   <action id="CopyWithoutSelect" />
+  <action id="DSM.OpenInEditor">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Database.OpenDbStorageAction">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="DatabaseView.CopyDdlAction" />
   <action id="DatabaseView.Ddl.AddTable">
     <keyboard-shortcut first-keystroke="ctrl 5" />
   </action>
+  <action id="DatabaseView.PropertiesAction" />
+  <action id="Debugger.EditFrameSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="DomCollectionControl.Edit">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="DomElementsTreeView.GotoDomElementDeclarationAction">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="DumpLookupElementWeights" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
   </action>
@@ -81,7 +103,18 @@
   <action id="EditorScrollTop">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="t" />
   </action>
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta end" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta home" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="ExpressionTypeInfo" />
+  <action id="ExternalSystem.OpenConfig">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="shift meta alt r" />
   </action>
@@ -114,6 +147,12 @@
   <action id="JRebel Executor">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="Jdbc.OpenConsole">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Jdbc.OpenEditor">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="JustOneSpace" />
   <action id="Maven.Reimport">
     <keyboard-shortcut first-keystroke="ctrl meta alt r" />
@@ -126,17 +165,29 @@
   <action id="OpenInBrowser">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="OpenModuleSettings">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="f1" />
     <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="RemoteHostView.EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift meta alt f" />
   </action>
+  <action id="RunDashboard.EditConfiguration">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="SelectNextOccurrence" />
   <action id="ShowBookmarks" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
@@ -160,11 +211,17 @@
   <action id="Tool_External Tools_sublime text">
     <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
+  <action id="Vcs.EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="shift ctrl f8" />
