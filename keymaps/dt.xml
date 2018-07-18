@@ -158,6 +158,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta alt r" />
   </action>
   <action id="MethodHierarchy.ImplementMethodAction" />
+  <action id="ModuleSettings">
+    <keyboard-shortcut first-keystroke="ctrl meta m" />
+  </action>
   <action id="NewElementInMenuGroup">
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
@@ -166,7 +169,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="OpenModuleSettings">
-    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="ctrl meta m" />
   </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="f1" />
