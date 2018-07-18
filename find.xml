@@ -17,5 +17,6 @@
     <mask>pom.xml</mask>
     <mask>*.java</mask>
     <mask>*Dao.java</mask>
+    <mask>*Controller.*</mask>
   </component>
 </application>
