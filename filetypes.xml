@@ -1,25 +1,26 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".gitignore_global" type="Git file" />
-      <mapping pattern="synctoseal" type="PLAIN_TEXT" />
-      <mapping pattern="Optional" type="PLAIN_TEXT" />
-      <mapping pattern="ruiz_cookies" type="PLAIN_TEXT" />
-      <mapping pattern="giveup" type="PLAIN_TEXT" />
       <mapping pattern="non_movie_names" type="PLAIN_TEXT" />
-      <mapping pattern="runnew" type="PLAIN_TEXT" />
-      <mapping pattern="non_movie_names_after" type="PLAIN_TEXT" />
-      <mapping pattern="typescript" type="PLAIN_TEXT" />
-      <mapping pattern="jreboot" type="PLAIN_TEXT" />
       <mapping pattern="syncjar" type="PLAIN_TEXT" />
+      <mapping pattern="jars" type="PLAIN_TEXT" />
+      <mapping pattern="non_movie_names_after" type="PLAIN_TEXT" />
+      <mapping pattern="ruiz_cookies" type="PLAIN_TEXT" />
+      <mapping pattern="jreboot" type="PLAIN_TEXT" />
       <mapping pattern="getserverversion" type="PLAIN_TEXT" />
+      <mapping pattern="Optional" type="PLAIN_TEXT" />
       <mapping pattern="healthy_check" type="PLAIN_TEXT" />
+      <mapping pattern="synctoseal" type="PLAIN_TEXT" />
+      <mapping pattern="giveup" type="PLAIN_TEXT" />
+      <mapping pattern="typescript" type="PLAIN_TEXT" />
+      <mapping pattern="runnew" type="PLAIN_TEXT" />
       <mapping ext="codec" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
       <mapping ext="aar" type="PLAIN_TEXT" />
       <mapping ext="tsv" type="PLAIN_TEXT" />
       <mapping ext="jsonlines" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
+      <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
 </application>
