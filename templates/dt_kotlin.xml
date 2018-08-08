@@ -70,4 +70,11 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="testcase" value="@TestDescr(&quot;$DESC$&quot;)&#10;@Test&#10;fun test$FUNCTION$() {&#10;    $END$&#10;}" description="new testcase" toReformat="false" toShortenFQNames="true">
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
