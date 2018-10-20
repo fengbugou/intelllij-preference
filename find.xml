@@ -21,5 +21,6 @@
     <mask>*.log</mask>
     <mask>*Dao.java</mask>
     <mask>pom.xml</mask>
+    <mask>*.sh</mask>
   </component>
 </application>
