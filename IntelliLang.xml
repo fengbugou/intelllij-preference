@@ -2,6 +2,10 @@
   <component name="LanguageInjectionConfiguration">
     <option name="LOOK_FOR_VAR_ASSIGNMENTS" value="true" />
     <injection language="SQL" injector-id="java">
+      <display-name>EnhancedJdbcTemplate.queryString (com.dt.ptsite.phone.util.jdbc)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryString").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.dt.ptsite.phone.util.jdbc.EnhancedJdbcTemplate"))]]></place>
+    </injection>
+    <injection language="SQL" injector-id="java">
       <display-name>JdbcTemplate (com.falcon.jdbc)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("insert").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.falcon.jdbc.JdbcTemplate"))]]></place>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("queryBool").withParameters("java.lang.String", "java.lang.Object...").definedInClass("com.falcon.jdbc.JdbcTemplate"))]]></place>
