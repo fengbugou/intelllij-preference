@@ -77,4 +77,10 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="tag" value="private val TAG = $CLASS$::class.java.simpleName" description="new tag for android Log.d" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
