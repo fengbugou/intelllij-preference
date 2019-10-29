@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="login_form_schema" type="PLAIN_TEXT" />
       <mapping pattern="non_movie_names" type="PLAIN_TEXT" />
       <mapping pattern="synchtml" type="PLAIN_TEXT" />
       <mapping pattern="ruiz_cookies" type="PLAIN_TEXT" />
