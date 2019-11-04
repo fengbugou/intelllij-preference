@@ -124,6 +124,9 @@
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
+  <action id="Flutter.Toolbar.ReloadAllAction">
+    <keyboard-shortcut first-keystroke="meta alt back_slash" />
+  </action>
   <action id="GotoBookmark5" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="meta button1" />
