@@ -14,4 +14,11 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="importr" value="import $PACKAGE$.R" description="import R.java" toReformat="false" toShortenFQNames="true">
+    <variable name="PACKAGE" expression="kotlinPackageName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
