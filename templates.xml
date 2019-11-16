@@ -243,6 +243,10 @@
           <option name="key" value="Toast" />
         </TemplateKey>
         <TemplateKey>
+          <option name="groupName" value="Android" />
+          <option name="key" value="starter" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_if" />
         </TemplateKey>
