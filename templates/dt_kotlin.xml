@@ -89,4 +89,10 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="rxobserver" value="{ resp, error -&gt;&#10;    if (error != null) {&#10;        Toast.makeText(ThisApplication.APP, error.getMessage(), Toast.LENGTH_LONG).show();&#10;    }&#10;    else {&#10;        $END$&#10;    }&#10;}" description="new rx observer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
