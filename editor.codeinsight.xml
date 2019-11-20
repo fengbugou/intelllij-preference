@@ -1,0 +1,24 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+    <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+    <EXCLUDED_PACKAGE NAME="ch.qos.logback.classic.Logger" />
+    <EXCLUDED_PACKAGE NAME="com.aliyun.mns.common.utils.Lists" />
+    <EXCLUDED_PACKAGE NAME="com.google.common.base.Optional" />
+    <EXCLUDED_PACKAGE NAME="com.oracle.tools.packager.Log.Logger" />
+    <EXCLUDED_PACKAGE NAME="com.pili.Stream" />
+    <EXCLUDED_PACKAGE NAME="com.sun" />
+    <EXCLUDED_PACKAGE NAME="io.vertx.core.logging.Logger" />
+    <EXCLUDED_PACKAGE NAME="io.vertx.core.logging.LoggerFactory" />
+    <EXCLUDED_PACKAGE NAME="java.util.logging.Logger" />
+    <EXCLUDED_PACKAGE NAME="javax.print.DocFlavor.URL" />
+    <EXCLUDED_PACKAGE NAME="jdk.internal.instrumentation.Logger" />
+    <EXCLUDED_PACKAGE NAME="jdk.internal.jline.internal.Nullable" />
+    <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.runtime.logging.Logger" />
+    <EXCLUDED_PACKAGE NAME="org.apache.logging.log4j.Logger" />
+    <EXCLUDED_PACKAGE NAME="org.apache.logging.log4j.core.Logger" />
+    <EXCLUDED_PACKAGE NAME="org.springframework.cglib.core.internal.LoadingCache" />
+    <EXCLUDED_PACKAGE NAME="sun.jvm.hotspot.utilities.Assert" />
+  </component>
+</application>

@@ -1,0 +1,131 @@
+<templateSet group="dt">
+  <template name="auto" value="@Autowired&#10;private $cls$ $var$;" description="autowired field" toReformat="false" toShortenFQNames="true">
+    <variable name="cls" expression="typeOfVariable(VAR)" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="thr" value="throw new RtnError(RespCode.$CODE$, &quot;$MSG$&quot;);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="xlparam" value="@CmdParam(name = $field_define_class$.$param_field$, type = $param_type$.class, desc = &quot;$param_desc$&quot;)," description="add xl param" toReformat="false" toShortenFQNames="true">
+    <variable name="field_define_class" expression="" defaultValue="&quot;SilvanParam&quot;" alwaysStopAt="true" />
+    <variable name="param_field" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param_type" expression="" defaultValue="&quot;Integer&quot;" alwaysStopAt="true" />
+    <variable name="param_desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mock" value="public static $CLASS_NAME$ MOCK() {&#10;    return JsonObjectUtils.parseJson(&quot;$END$&quot;,$CLASS_NAME$.class);&#10;}" description="add mock data function" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="uid" value="int login_user_id = getMainParam(request, response).getUser_id();" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="isempty" value="if (CollectionTools.isEmpty($source_list$)) {&#10;    return Lists.newArrayList();&#10;}" description="return empty list if source list is empty" toReformat="false" toShortenFQNames="true">
+    <variable name="source_list" expression="variableOfType(&quot;List&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="uidopt" value="int login_user_id = getUserIdSilently(request, response, false);" description="login_user_id optional" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="single" value="public static $CLASS_NAME$ INSTANCE;&#10;&#10;public $CLASS_NAME$() {&#10;    INSTANCE = this;&#10;}" description="single instance" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="logger" value="private static final Logger log = LoggerFactory.getLogger($CLASS$.class.getName());" description="logger instance" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="fake" value="public static final $class_name$ FAKE = JsonObjectUtils.parseJson(&quot;$raw_json$&quot;, $class_name$.class);" description="fake a object by raw json" toReformat="false" toShortenFQNames="true">
+    <variable name="class_name" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="raw_json" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="okand" value="return JsonObjectUtils.getRtnAndDataJsonObject(Rtn.OK, $data$);" description="return ok and data as result" toReformat="false" toShortenFQNames="true">
+    <variable name="data" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ret" value="return result$END$;" description="return result;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="getstr" value="String $field_name$ = request.getParameter(&quot;$field_name$&quot;, $defaultValue$);" description="get string from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getbool" value="boolean $field_name$ = request.getParameterBoolean(&quot;$field_name$&quot;, $defaultValue$);" description="get bool from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getint" value="int $field_name$ = request.getParameterInteger(&quot;$field_name$&quot;, $defaultValue$);" description="get int from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getlong" value="long $field_name$ = request.getParameterLong(&quot;$field_name$&quot;, $defaultValue$);" description="get long from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="defaultValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="str" value="String" description="String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="facmd" value="@Cmd(desc = &quot;$END$&quot;,&#10;&#9;params = {&#10;&#9;&#9;@CmdParam(name = &quot;&quot;, desc = &quot;&quot;, type = String.class, compelled = true, defaultValue = &quot;&quot;)&#10;&#9;},&#10;&#9;returnValue = {&#10;    &#10;    })" description="add new falcon cmd" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="valueofenum" value="public static $CLASS$ valueOfSafe(String enumAsStr, $CLASS$ defaultValue) {&#10;    if (enumAsStr == null) {&#10;        return defaultValue;&#10;    }&#10;    return Stream.of(values())&#10;              .filter(e -&gt; e.name().equals(enumAsStr))&#10;              .findAny()&#10;              .orElse(defaultValue); &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="jtlist" value="jt.queryList($CLASS_NAME$.class, &quot;select * from $TABLE_NAME$$END$&quot;);" description="select * from table and parse to list" toReformat="false" toShortenFQNames="true">
+    <variable name="TABLE_NAME" expression="groovyScript(&quot;_1.toLowerCase()&quot;, capitalizeAndUnderscore(substringBefore(className(), &quot;Dao&quot;)))" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_NAME" expression="capitalize(underscoresToCamelCase(TABLE_NAME))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
