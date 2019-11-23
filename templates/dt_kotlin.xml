@@ -95,4 +95,10 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="onclick" value="fun onClick$BUTTON_NAME$(btn: View) {&#10;    $END$&#10;}" description="new onclick function" toReformat="false" toShortenFQNames="true">
+    <variable name="BUTTON_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
