@@ -191,6 +191,9 @@
   <action id="RunDashboard.EditConfiguration">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
   <action id="SelectNextOccurrence" />
   <action id="ShowBookmarks" />
   <action id="ShowNavBar">
