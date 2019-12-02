@@ -16,6 +16,7 @@
       <mapping pattern="non_movie_names_after" type="PLAIN_TEXT" />
       <mapping pattern="syncjar" type="PLAIN_TEXT" />
       <mapping pattern="typescript" type="PLAIN_TEXT" />
+      <mapping pattern="sync" type="PLAIN_TEXT" />
       <mapping pattern="synctoseal" type="PLAIN_TEXT" />
       <mapping pattern="giveup" type="PLAIN_TEXT" />
       <mapping pattern="jreboot" type="PLAIN_TEXT" />
