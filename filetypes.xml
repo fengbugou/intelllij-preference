@@ -3,9 +3,6 @@
     <extensionMap>
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping pattern="MyDockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="localDockerfile" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
