@@ -18,6 +18,7 @@
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal.runtime.logging.Logger" />
     <EXCLUDED_PACKAGE NAME="org.apache.logging.log4j.Logger" />
     <EXCLUDED_PACKAGE NAME="org.apache.logging.log4j.core.Logger" />
+    <EXCLUDED_PACKAGE NAME="org.bouncycastle.util.Properties" />
     <EXCLUDED_PACKAGE NAME="org.springframework.cglib.core.internal.LoadingCache" />
     <EXCLUDED_PACKAGE NAME="sun.jvm.hotspot.utilities.Assert" />
   </component>
