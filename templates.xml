@@ -3,6 +3,14 @@
     <option name="deletedKeys">
       <list>
         <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="tldTag" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="jsf" />
+          <option name="key" value="tldFunction" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="spring" />
           <option name="key" value="sb" />
         </TemplateKey>
@@ -239,14 +247,6 @@
           <option name="key" value="osgisetwithcomparator" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="Android" />
-          <option name="key" value="Toast" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Android" />
-          <option name="key" value="starter" />
-        </TemplateKey>
-        <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_if" />
         </TemplateKey>
@@ -473,6 +473,14 @@
         <TemplateKey>
           <option name="groupName" value="GoHiddenTemplate" />
           <option name="key" value="template_type_hint_comment" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Android" />
+          <option name="key" value="Toast" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Android" />
+          <option name="key" value="starter" />
         </TemplateKey>
       </list>
     </option>

@@ -128,4 +128,10 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="ifsingle" value="if (AppMode.isSingleMode()) {&#10;    $END$            &#10;}" description="do if is single mode" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
