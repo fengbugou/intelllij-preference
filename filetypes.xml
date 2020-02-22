@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="aaa" type="PLAIN_TEXT" />
       <mapping pattern="jrebootpay" type="PLAIN_TEXT" />
       <mapping pattern="synctoseal" type="PLAIN_TEXT" />
