@@ -27,5 +27,6 @@
     <mask>*Dao.*</mask>
     <mask>*.java</mask>
     <mask>*.yml</mask>
+    <mask>*.</mask>
   </component>
 </application>
