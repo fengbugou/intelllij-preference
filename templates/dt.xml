@@ -134,4 +134,9 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="lombok" value="@Data&#10;@AllArgsConstructor&#10;@NoArgsConstructor" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
