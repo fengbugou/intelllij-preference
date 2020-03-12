@@ -8,6 +8,7 @@
       <mapping pattern="Optional" type="PLAIN_TEXT" />
       <mapping pattern="ruiz_cookies" type="PLAIN_TEXT" />
       <mapping pattern="giveup" type="PLAIN_TEXT" />
+      <mapping pattern="changedIds" type="PLAIN_TEXT" />
       <mapping pattern="non_movie_names" type="PLAIN_TEXT" />
       <mapping pattern="ids" type="PLAIN_TEXT" />
       <mapping pattern="typescript" type="PLAIN_TEXT" />
