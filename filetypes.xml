@@ -13,6 +13,7 @@
       <mapping pattern="healthy_check" type="PLAIN_TEXT" />
       <mapping pattern="ids" type="PLAIN_TEXT" />
       <mapping pattern="jrebootpay" type="PLAIN_TEXT" />
+      <mapping pattern="before" type="PLAIN_TEXT" />
       <mapping pattern="non_movie_names_after" type="PLAIN_TEXT" />
       <mapping pattern="dump_mysql_scheme" type="PLAIN_TEXT" />
       <mapping pattern="synchtml" type="PLAIN_TEXT" />
