@@ -1,0 +1,27 @@
+<templateSet group="dt_ruiz_jdbc">
+  <template name="jdbcgetone" value="public $BEAN_TYPE$ get(int $REFER_ID$) {&#10;    return jt_helcar.queryOne($BEAN_TYPE$.class, &quot;select * from $TABLE$ where $REFER_ID$=?&quot;, $REFER_ID$);&#10;}" description="get bean by jdbc" toReformat="false" toShortenFQNames="true">
+    <variable name="BEAN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REFER_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="jdbcinsertone" value="public void add($BEAN_TYPE$ row) {&#10;    jt_helcar.insertOne(&quot;insert into $BEAN_TYPE_LOWER$&quot;, row);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="BEAN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BEAN_TYPE_LOWER" expression="decapitalize(BEAN_TYPE)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="jdbclistall" value="public List&lt;$BEAN_TYPE$&gt; list_all() {&#10;    String sql = &quot;select * from $BEAN_TYPE_LOWER$&quot;;&#10;    return jt_helcar.queryList($BEAN_TYPE$.class, sql);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="BEAN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BEAN_TYPE_LOWER" expression="decapitalize(BEAN_TYPE)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

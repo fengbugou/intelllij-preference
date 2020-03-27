@@ -1,0 +1,104 @@
+<templateSet group="dt_kotlin">
+  <template name="auto" value="@Autowired&#10;private lateinit var $VARNAME$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VARNAME" expression="kotlinSuggestVariableName()" defaultValue="&quot;bean&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="replaceautowired" value="private val (\w+): (\w+)\? = null&#10;private lateinit var $1: $2" description="replace auto wired" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="xlapi" value="@Cmd(desc = &quot;$END$&quot;,&#10;        params = [&#10;            CmdParam(name = &quot;&quot;, desc = &quot;&quot;, type = String::class)&#10;        ],&#10;        returnValue = [&quot;&quot;&quot;&#10;        {&#10;&#10;        }&#10;                &quot;&quot;&quot;]&#10;    )&#10;    @RequestMapping(&quot;/$API_PATH$&quot;, method = [RequestMethod.$METHOD$])&#10;    fun $API_PATH_CAMEL$(request: FalconHttpRequest): JsonResp {&#10;        return JsonResp.success()&#10;    }" description="xlapi" toReformat="false" toShortenFQNames="true">
+    <variable name="API_PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="GET" alwaysStopAt="true" />
+    <variable name="API_PATH_CAMEL" expression="camelCase($API_PATH$)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="xlparam" value="CmdParam(name = SilvanParam.$NAME$, type = $TYPE$::class, desc = arrayOf(&quot;$END$&quot;))" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="uid" value="val login_user_id = getMainParamSilently(request, response).user_id" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="getstr" value="val $varName$ = request.getParamStringCompelled(&quot;$paramName$&quot;)" description="get string from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="paramName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="varName" expression="underscoresToCamelCase(paramName)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="getbool" value="val $varName$ = request.getParamBooleanCompelled(&quot;$paramName$&quot;)" description="get bool from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="paramName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="varName" expression="underscoresToCamelCase(paramName)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="getint" value="val $varName$ = request.getParamIntCompelled(&quot;$paramName$&quot;)" description="get int from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="paramName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="varName" expression="underscoresToCamelCase(paramName)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="getlong" value="val $varName$ = request.getParamLongCompelled(&quot;$paramName$&quot;)" description="get long from XLHttpRequest" toReformat="false" toShortenFQNames="true">
+    <variable name="paramName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="varName" expression="underscoresToCamelCase(paramName)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="clienti" value="val clientInfo = ClientInfo.of(request);" description="new ClientInfo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="thr" value="throw RtnError(RespCode.$CODE$, &quot;$MSG$&quot;);" description="throw error" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="testcase" value="@TestDescr(&quot;$DESC$&quot;)&#10;@Test&#10;fun test$FUNCTION$() {&#10;    $END$&#10;}" description="new testcase" toReformat="false" toShortenFQNames="true">
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="tag" value="private val TAG = $CLASS$::class.java.simpleName" description="new tag for android Log.d" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="kotlinClassName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="r" value="import $packageName$.R" description="import R file" toReformat="false" toShortenFQNames="true">
+    <variable name="packageName" expression="kotlinPackageName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="rxobserver" value="{ resp, error -&gt;&#10;    if (error != null) {&#10;        Toast.makeText(ThisApplication.APP, error.getMessage(), Toast.LENGTH_LONG).show();&#10;    }&#10;    else {&#10;        $END$&#10;    }&#10;}" description="new rx observer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="onclick" value="fun onClick$BUTTON_NAME$(btn: View) {&#10;    $END$&#10;}" description="new onclick function" toReformat="false" toShortenFQNames="true">
+    <variable name="BUTTON_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
