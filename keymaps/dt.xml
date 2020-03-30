@@ -44,6 +44,9 @@
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
+  <action id="CopyAsPlainText">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="ctrl meta c" />
   </action>
