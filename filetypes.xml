@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="changedIds" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="login_form_schema" type="PLAIN_TEXT" />
       <mapping pattern="non_movie_names" type="PLAIN_TEXT" />
       <mapping pattern="jars" type="PLAIN_TEXT" />
