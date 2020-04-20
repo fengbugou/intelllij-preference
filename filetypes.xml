@@ -26,8 +26,8 @@
       <mapping pattern="synchtml" type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
       <mapping ext="aar" type="PLAIN_TEXT" />
-      <mapping ext="codec" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
+      <mapping ext="codec" type="PLAIN_TEXT" />
       <mapping ext="jsonlines" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
