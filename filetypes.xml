@@ -22,6 +22,7 @@
       <mapping pattern="jreboot" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="syncjar" type="PLAIN_TEXT" />
+      <mapping pattern="sdf" type="PLAIN_TEXT" />
       <mapping pattern="getserverversion" type="PLAIN_TEXT" />
       <mapping pattern="healthy_check" type="PLAIN_TEXT" />
       <mapping pattern="synchtml" type="PLAIN_TEXT" />
