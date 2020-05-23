@@ -226,6 +226,9 @@
   <action id="Tool_External Tools_sublime text">
     <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
+  <action id="Tool_External Tools_vscode">
+    <mouse-shortcut keystroke="control meta button1" />
+  </action>
   <action id="Vcs.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
