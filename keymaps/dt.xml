@@ -44,12 +44,13 @@
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
+  <action id="CopyAbsolutePath">
+    <keyboard-shortcut first-keystroke="ctrl meta c" />
+  </action>
   <action id="CopyAsPlainText">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
-  <action id="CopyPaths">
-    <keyboard-shortcut first-keystroke="ctrl meta c" />
-  </action>
+  <action id="CopyPaths" />
   <action id="CopyThenJumpPaste" />
   <action id="CopyWithoutSelect" />
   <action id="DSM.OpenInEditor">
