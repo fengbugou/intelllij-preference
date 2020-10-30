@@ -1,5 +1,6 @@
 <application>
   <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="2" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
@@ -23,8 +24,12 @@
     <EXCLUDED_PACKAGE NAME="org.springframework.cglib.core.internal.LoadingCache" />
     <EXCLUDED_PACKAGE NAME="sun.jvm.hotspot.utilities.Assert" />
   </component>
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="16" />
+  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="false" />
     <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
   </component>
   <component name="TodoConfiguration">
