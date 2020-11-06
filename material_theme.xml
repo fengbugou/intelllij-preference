@@ -1,0 +1,10 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="isContrastMode" value="true" />
+    <option name="isWizardShown" value="true" />
+    <option name="accentColor" value="2aa298" />
+    <option name="selectedTheme" value="LIGHT_OWL" />
+    <option name="userId" value="-7f274f98:16f55645008:-8000" />
+    <option name="version" value="4.11.4" />
+  </component>
+</application>
