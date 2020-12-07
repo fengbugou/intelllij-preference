@@ -29,6 +29,7 @@
       <mapping pattern="synchtml" type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
       <mapping ext="aar" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
       <mapping ext="codec" type="PLAIN_TEXT" />
       <mapping ext="jsonlines" type="PLAIN_TEXT" />
