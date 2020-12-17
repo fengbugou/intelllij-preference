@@ -27,6 +27,7 @@
       <mapping pattern="getserverversion" type="PLAIN_TEXT" />
       <mapping pattern="healthy_check" type="PLAIN_TEXT" />
       <mapping pattern="synchtml" type="PLAIN_TEXT" />
+      <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
       <mapping ext="aar" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
