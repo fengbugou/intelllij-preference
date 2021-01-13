@@ -18,7 +18,6 @@
     <mask>*.sh</mask>
     <mask>*Controller.kt</mask>
     <mask>*Dao.*</mask>
-    <mask>*.yml</mask>
     <mask>*.</mask>
     <mask>*.java</mask>
     <mask>*.py</mask>
@@ -26,5 +25,6 @@
     <mask>*.js</mask>
     <mask>*.xml</mask>
     <mask>pom.xml</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
