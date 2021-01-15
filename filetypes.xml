@@ -1,8 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="dump_mysql_scheme" type="PLAIN_TEXT" />
       <mapping pattern="synchtml" type="PLAIN_TEXT" />
+      <mapping pattern="dump_mysql_scheme" type="PLAIN_TEXT" />
       <mapping pattern="sprint05-snapshot" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="sync" type="PLAIN_TEXT" />
