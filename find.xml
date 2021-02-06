@@ -19,12 +19,13 @@
     <mask>*Controller.kt</mask>
     <mask>*Dao.*</mask>
     <mask>*.</mask>
-    <mask>*.java</mask>
     <mask>*.py</mask>
     <mask>*.json</mask>
     <mask>*.js</mask>
     <mask>*.xml</mask>
     <mask>pom.xml</mask>
     <mask>*.yml</mask>
+    <mask>*.java</mask>
+    <mask>*callback.js</mask>
   </component>
 </application>
