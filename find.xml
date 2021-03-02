@@ -24,8 +24,8 @@
     <mask>*.xml</mask>
     <mask>pom.xml</mask>
     <mask>*.yml</mask>
-    <mask>*.java</mask>
     <mask>*callback.js</mask>
     <mask>*.js</mask>
+    <mask>*.java</mask>
   </component>
 </application>
