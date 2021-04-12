@@ -1,0 +1,5 @@
+<application>
+  <component name="JrePropertiesCache">
+    <jre homeDir="$USER_HOME$/.sdkman/candidates/java/8.0.252.hs-adpt" arch64Bit="true" />
+  </component>
+</application>
