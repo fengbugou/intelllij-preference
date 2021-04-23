@@ -11,6 +11,7 @@
       <mapping pattern="ruiz_cookies" type="PLAIN_TEXT" />
       <mapping pattern="syncjar" type="PLAIN_TEXT" />
       <mapping pattern="sync" type="PLAIN_TEXT" />
+      <mapping pattern="AdjustPaymentIdProcessor" type="PLAIN_TEXT" />
       <mapping pattern="giveup" type="PLAIN_TEXT" />
       <mapping pattern="changedIds" type="PLAIN_TEXT" />
       <mapping pattern="non_movie_names" type="PLAIN_TEXT" />
