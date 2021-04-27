@@ -7,7 +7,6 @@
       <mapping pattern="dump_mysql_scheme" type="PLAIN_TEXT" />
       <mapping pattern="sprint05-snapshot" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern="sync" type="PLAIN_TEXT" />
       <mapping pattern="Optional" type="PLAIN_TEXT" />
       <mapping pattern="jreboot" type="PLAIN_TEXT" />
       <mapping pattern="non_movie_names" type="PLAIN_TEXT" />
