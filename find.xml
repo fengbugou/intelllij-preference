@@ -16,7 +16,6 @@
     <mask>*Controller.*</mask>
     <mask>*.kt</mask>
     <mask>*.log</mask>
-    <mask>*Dao.java</mask>
     <mask>*.sh</mask>
     <mask>*Controller.kt</mask>
     <mask>*Dao.*</mask>
@@ -29,5 +28,6 @@
     <mask>*callback.js</mask>
     <mask>*.js</mask>
     <mask>*.java</mask>
+    <mask>*Dao.java</mask>
   </component>
 </application>
