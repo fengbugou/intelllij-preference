@@ -3,8 +3,8 @@
     <extensionMap>
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern="dump_mysql_scheme" type="PLAIN_TEXT" />
       <mapping pattern="synchtml" type="PLAIN_TEXT" />
+      <mapping pattern="dump_mysql_scheme" type="PLAIN_TEXT" />
       <mapping pattern="sprint05-snapshot" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="Optional" type="PLAIN_TEXT" />
