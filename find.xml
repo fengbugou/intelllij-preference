@@ -26,8 +26,9 @@
     <mask>pom.xml</mask>
     <mask>*.yml</mask>
     <mask>*callback.js</mask>
-    <mask>*.js</mask>
     <mask>*.java</mask>
+    <mask>*service.js</mask>
+    <mask>*.js</mask>
     <mask>*Dao.java</mask>
   </component>
 </application>
