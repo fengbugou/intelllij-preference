@@ -2,27 +2,33 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
-    <mask>*.js</mask>
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*Controller.java</mask>
     <mask>*Mapper.xml</mask>
     <mask>*.properties</mask>
-    <mask>*.xml</mask>
     <mask>*Controller.*</mask>
     <mask>*.kt</mask>
     <mask>*.log</mask>
-    <mask>*Dao.java</mask>
-    <mask>pom.xml</mask>
     <mask>*.sh</mask>
     <mask>*Controller.kt</mask>
     <mask>*Dao.*</mask>
-    <mask>*.java</mask>
-    <mask>*.yml</mask>
     <mask>*.</mask>
+    <mask>*.py</mask>
+    <mask>*.json</mask>
+    <mask>*.xml</mask>
+    <mask>pom.xml</mask>
+    <mask>*.yml</mask>
+    <mask>*callback.js</mask>
+    <mask>*.java</mask>
+    <mask>*service.js</mask>
+    <mask>*.js</mask>
+    <mask>*Dao.java</mask>
   </component>
 </application>
