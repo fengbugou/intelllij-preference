@@ -171,6 +171,7 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="NextEditorTab" />
   <action id="NextWindow" />
   <action id="OpenInBrowser">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
@@ -178,6 +179,7 @@
   <action id="OpenModuleSettings">
     <keyboard-shortcut first-keystroke="ctrl meta m" />
   </action>
+  <action id="PreviousEditorTab" />
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="f1" />
     <mouse-shortcut keystroke="control button2" />

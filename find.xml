@@ -14,17 +14,19 @@
     <mask>*Controller.*</mask>
     <mask>*.kt</mask>
     <mask>*.log</mask>
-    <mask>*Dao.java</mask>
     <mask>*.sh</mask>
     <mask>*Controller.kt</mask>
     <mask>*Dao.*</mask>
-    <mask>*.yml</mask>
     <mask>*.</mask>
-    <mask>*.java</mask>
-    <mask>pom.xml</mask>
     <mask>*.py</mask>
     <mask>*.json</mask>
-    <mask>*.js</mask>
     <mask>*.xml</mask>
+    <mask>pom.xml</mask>
+    <mask>*.yml</mask>
+    <mask>*callback.js</mask>
+    <mask>*.java</mask>
+    <mask>*service.js</mask>
+    <mask>*.js</mask>
+    <mask>*Dao.java</mask>
   </component>
 </application>
