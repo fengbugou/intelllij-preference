@@ -28,5 +28,6 @@
     <mask>*service.js</mask>
     <mask>*.js</mask>
     <mask>*Dao.java</mask>
+    <mask>*.vue</mask>
   </component>
 </application>
