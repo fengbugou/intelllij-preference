@@ -302,6 +302,11 @@
                       <FeaturePluginData displayName="Mocha" pluginName="Node.js" pluginId="NodeJS" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="suitecloud-configuration-type">
+                    <value>
+                      <FeaturePluginData displayName="SuiteCloud" pluginName="SuiteCloud IDE Plug-in by NetSuite" pluginId="com.netsuite.ide.webstorm.app" />
+                    </value>
+                  </entry>
                 </map>
               </option>
             </FeaturePluginsList>
