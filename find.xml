@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*config.java" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.as</mask>
@@ -30,5 +31,6 @@
     <mask>*Dao.java</mask>
     <mask>*js</mask>
     <mask>*yml</mask>
+    <mask>*config.java</mask>
   </component>
 </application>
